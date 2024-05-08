@@ -16,7 +16,7 @@
 					<div class="card col-4 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-2">
-								<strapi:files ID="347">
+								<strapi:files ID="327">
 									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
 								</strapi:files>
 							</div>
@@ -31,7 +31,7 @@
 					<div class="card col-4 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-2">
-								<strapi:files ID="347">
+								<strapi:files ID="359">
 									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
 								</strapi:files>
 							</div>
@@ -44,7 +44,7 @@
 					<div class="card col-4 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-2">
-								<strapi:files ID="347">
+								<strapi:files ID="391">
 									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
 								</strapi:files>
 							</div>
