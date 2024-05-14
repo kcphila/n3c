@@ -36,7 +36,7 @@
 								</strapi:files>
 							</div>
 							<div class="col-10">
-								<h3><a href="https://education.cd2h.org">N3C Education</a></h3>
+								<h3><a href="https://education.clinicalcohort.org">N3C Education</a></h3>
 								Blurb for Education...
 							</div>
 						</div>
@@ -49,7 +49,7 @@
 								</strapi:files>
 							</div>
 							<div class="col-10">
-								<h3><a href="https://cancer.cd2h.org">N3C Cancer</a></h3>
+								<h3><a href="https://cancer.clinicalcohort.org">N3C Cancer</a></h3>
 								Blurb for Cancer...
 							</div>
 						</div>
