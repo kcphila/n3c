@@ -13,44 +13,57 @@
 			<div class="block">
 				<h2 class="center">Enclaves</h2>
 				<div class="row flex-wrap">
-					<div class="card col-4 shade-blue">
+					<div class="card col-3 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-2">
+							<div class="col-3">
 								<strapi:files ID="327">
 									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
 								</strapi:files>
 							</div>
-							<div class="col-10">
-								<h3><a href="https://covid.cd2h.org">N3C COVID</a></h3>
+							<div class="col-9">
+								<h3><a href="https://covid.clinicalcohort.org">N3C COVID</a></h3>
 								<strapi:abouts ID="1">
 									<util:markdown2html><strapi:aboutsBlock2 /></util:markdown2html>
 								</strapi:abouts>
 							</div>
 						</div>
 					</div>
-					<div class="card col-4 shade-blue">
+					<div class="card col-3 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-2">
+							<div class="col-3">
 								<strapi:files ID="359">
 									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
 								</strapi:files>
 							</div>
-							<div class="col-10">
+							<div class="col-9">
 								<h3><a href="https://education.clinicalcohort.org">N3C Education</a></h3>
 								Blurb for Education...
 							</div>
 						</div>
 					</div>
-					<div class="card col-4 shade-blue">
+					<div class="card col-3 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-2">
+							<div class="col-3">
 								<strapi:files ID="391">
 									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
 								</strapi:files>
 							</div>
-							<div class="col-10">
+							<div class="col-9">
 								<h3><a href="https://cancer.clinicalcohort.org">N3C Cancer</a></h3>
 								Blurb for Cancer...
+							</div>
+						</div>
+					</div>
+					<div class="card col-3 shade-blue">
+						<div class="row flex-nowrap shadow-	block">
+							<div class="col-3">
+								<strapi:files ID="391">
+									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
+								</strapi:files>
+							</div>
+							<div class="col-9">
+								<h3><a href="https://renal.clinicalcohort.org">N3C Renal</a></h3>
+								Blurb for Renal...
 							</div>
 						</div>
 					</div>
