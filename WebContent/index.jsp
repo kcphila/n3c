@@ -13,7 +13,7 @@
 			<div class="block">
 				<h2 class="center">Enclaves</h2>
 				<div class="row flex-wrap">
-					<div class="card col-3 shade-blue">
+					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-3">
 								<strapi:files ID="327">
@@ -28,7 +28,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card col-3 shade-blue">
+					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-3">
 								<strapi:files ID="359">
@@ -41,7 +41,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="card col-3 shade-blue">
+				</div>
+				<div class="row flex-wrap">
+					
+					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-3">
 								<strapi:files ID="391">
@@ -54,7 +57,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card col-3 shade-blue">
+					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
 							<div class="col-3">
 								<strapi:files ID="391">
