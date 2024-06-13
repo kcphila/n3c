@@ -15,59 +15,76 @@
 				<div class="row flex-wrap">
 					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-3">
-								<strapi:files ID="327">
-									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
-								</strapi:files>
-							</div>
-							<div class="col-9">
-								<h3><a href="https://covid.clinicalcohort.org">N3C COVID</a></h3>
-								<strapi:abouts ID="1">
-									<util:markdown2html><strapi:aboutsBlock2 /></util:markdown2html>
-								</strapi:abouts>
-							</div>
+							<strapi:tenantProfiles ID="2">
+								<div class="col-2">
+									<jsp:include page="files/related_image.jsp">
+										<jsp:param name="type" value="api::tenant-profile.tenant-profile" />
+										<jsp:param name="field" value="icon" />
+										<jsp:param name="id" value="${tag_tenantProfiles.ID}" />
+										<jsp:param name="format" value="auto-height" />
+									</jsp:include>
+								</div>
+								<div class="col-10">
+									<h3><a href="<strapi:tenantProfilesUrl/>"><strapi:tenantProfilesLabel /></a></h3>
+									<util:markdown2html><strapi:tenantProfilesBlurb /></util:markdown2html>
+								</div>
+							</strapi:tenantProfiles>
 						</div>
 					</div>
 					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-3">
-								<strapi:files ID="359">
-									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
-								</strapi:files>
-							</div>
-							<div class="col-9">
-								<h3><a href="https://education.clinicalcohort.org">N3C Education</a></h3>
-								Blurb for Education...
-							</div>
+							<strapi:tenantProfiles ID="3">
+								<div class="col-2">
+									<jsp:include page="files/related_image.jsp">
+										<jsp:param name="type" value="api::tenant-profile.tenant-profile" />
+										<jsp:param name="field" value="icon" />
+										<jsp:param name="id" value="${tag_tenantProfiles.ID}" />
+										<jsp:param name="format" value="auto-height" />
+									</jsp:include>
+								</div>
+								<div class="col-10">
+									<h3><a href="<strapi:tenantProfilesUrl/>"><strapi:tenantProfilesLabel /></a></h3>
+									<util:markdown2html><strapi:tenantProfilesBlurb /></util:markdown2html>
+								</div>
+							</strapi:tenantProfiles>
 						</div>
 					</div>
 				</div>
 				<div class="row flex-wrap">
-					
 					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-3">
-								<strapi:files ID="391">
-									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
-								</strapi:files>
-							</div>
-							<div class="col-9">
-								<h3><a href="https://cancer.clinicalcohort.org">N3C Cancer</a></h3>
-								Blurb for Cancer...
-							</div>
+							<strapi:tenantProfiles ID="4">
+								<div class="col-2">
+									<jsp:include page="files/related_image.jsp">
+										<jsp:param name="type" value="api::tenant-profile.tenant-profile" />
+										<jsp:param name="field" value="icon" />
+										<jsp:param name="id" value="${tag_tenantProfiles.ID}" />
+										<jsp:param name="format" value="auto-height" />
+									</jsp:include>
+								</div>
+								<div class="col-10">
+									<h3><a href="<strapi:tenantProfilesUrl/>"><strapi:tenantProfilesLabel /></a></h3>
+									<util:markdown2html><strapi:tenantProfilesBlurb /></util:markdown2html>
+								</div>
+							</strapi:tenantProfiles>
 						</div>
 					</div>
 					<div class="card col-6 shade-blue">
 						<div class="row flex-nowrap shadow-	block">
-							<div class="col-3">
-								<strapi:files ID="391">
-									<img alt="" src="<util:propertyValue propertyFile="strapi" name="strapi-path"/><strapi:filesUrl/>" style="padding: 20px; max-width: 100px; margin: auto; align-self: flex-start;">
-								</strapi:files>
-							</div>
-							<div class="col-9">
-								<h3><a href="https://renal.clinicalcohort.org">N3C Renal</a></h3>
-								Blurb for Renal...
-							</div>
+							<strapi:tenantProfiles ID="5">
+								<div class="col-2">
+									<jsp:include page="files/related_image.jsp">
+										<jsp:param name="type" value="api::tenant-profile.tenant-profile" />
+										<jsp:param name="field" value="icon" />
+										<jsp:param name="id" value="${tag_tenantProfiles.ID}" />
+										<jsp:param name="format" value="auto-height" />
+									</jsp:include>
+								</div>
+								<div class="col-10">
+									<h3><a href="<strapi:tenantProfilesUrl/>"><strapi:tenantProfilesLabel /></a></h3>
+									<util:markdown2html><strapi:tenantProfilesBlurb /></util:markdown2html>
+								</div>
+							</strapi:tenantProfiles>
 						</div>
 					</div>
 				</div>
