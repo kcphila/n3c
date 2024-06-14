@@ -14,34 +14,26 @@
 				<h2 class="center">Enclaves</h2>
 				<div class="row flex-wrap">
 					<div class="card col-6 shade-blue">
-						<div class="row flex-nowrap shadow-	block">
-							<jsp:include page="tenant/profile.jsp">
-								<jsp:param value="2" name="id"/>
-							</jsp:include>
-						</div>
+						<jsp:include page="tenant/profile.jsp">
+							<jsp:param value="2" name="id" />
+						</jsp:include>
 					</div>
 					<div class="card col-6 shade-blue">
-						<div class="row flex-nowrap shadow-	block">
-							<jsp:include page="tenant/profile.jsp">
-								<jsp:param value="3" name="id"/>
-							</jsp:include>
-						</div>
+						<jsp:include page="tenant/profile.jsp">
+							<jsp:param value="3" name="id" />
+						</jsp:include>
 					</div>
 				</div>
 				<div class="row flex-wrap">
 					<div class="card col-6 shade-blue">
-						<div class="row flex-nowrap shadow-	block">
-							<jsp:include page="tenant/profile.jsp">
-								<jsp:param value="4" name="id"/>
-							</jsp:include>
-						</div>
+						<jsp:include page="tenant/profile.jsp">
+							<jsp:param value="4" name="id" />
+						</jsp:include>
 					</div>
 					<div class="card col-6 shade-blue">
-						<div class="row flex-nowrap shadow-	block">
-							<jsp:include page="tenant/profile.jsp">
-								<jsp:param value="5" name="id"/>
-							</jsp:include>
-						</div>
+						<jsp:include page="tenant/profile.jsp">
+							<jsp:param value="5" name="id" />
+						</jsp:include>
 					</div>
 				</div>
 			</div>
