@@ -193,4 +193,5 @@ WebContent/resources/tinymce/themes/mobile/theme.min.js -text
 WebContent/resources/tinymce/themes/silver/theme.min.js -text
 WebContent/resources/tinymce/tinymce.d.ts -text
 WebContent/resources/tinymce/tinymce.min.js -text
+WebContent/tenant/profile.jsp -text
 /pom.xml -text
